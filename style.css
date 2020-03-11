@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+}
+.article{
+    height: 100%;
+}
+h1{
+    color: black;
+}
+.footer{
+    background-color: whitesmoke;
+    color: black;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer-content .section{
+    flex: 1;
+    padding: 20px;
+    border: black 1px solid;
+}
+.list li{
+    list-style-type: none;
+}
+img{
+    margin-left: 100px;
+}
